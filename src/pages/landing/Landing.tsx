@@ -2,10 +2,10 @@ import { type FC } from "react";
 import { createStyles, rem, keyframes } from "@mantine/core";
 
 import UpcomingLaunches from "../../components/landingPage/UpcomingLaunches";
-import FeatureSection from "../../components/landingPage/featureSection";
 import { StatSection } from "../../components/landingPage/StatSection";
 import HeroSection from "../../components/landingPage/HeroSection";
 import CallToAction from "../../components/landingPage/CallToAction";
+import FeatureSection from "../../components/landingPage/FeatureSection";
 
 const fadeIn = keyframes({
   from: { opacity: 0, transform: "translateY(20px)" },
